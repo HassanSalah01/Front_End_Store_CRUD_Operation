@@ -1,62 +1,60 @@
 class Product {
-    constructor(prod){
+    constructor(prod) {
         this.title = prod.title;
         this.price = prod.price;
         this.tax = prod.tax;
         this.discount = prod.discount;
-        this.count = prod.count ;
+        this.count = prod.count;
         this.category = prod.category;
     }
-    setTitle(val){
+    setTitle(val) {
         this.title = val;
-
     }
-    getTit(){
+    getTit() {
         return this.title;
     }
 
-    setPrice(val){
+    setPrice(val) {
         this.price = val;
     }
 
-    getPrice(){
+    getPrice() {
         return this.price;
     }
 
-    setTax(val){
+    setTax(val) {
         this.tax = val;
     }
 
-    getTax(){
+    getTax() {
         return this.tax;
     }
 
-    setDiscount(val){
+    setDiscount(val) {
         this.discount = val;
     }
 
-    getDiscount(){
+    getDiscount() {
         return this.discount;
     }
 
-    setCount(val){
+    setCount(val) {
         this.count = val;
     }
 
-    getCount(){
+    getCount() {
         return this.count;
     }
 
-    setCategory(val){
+    setCategory(val) {
         this.category = val;
     }
 
-    getCategory(){
+    getCategory() {
         return this.category;
     }
-    printData(){
+    printData() {
         console.log(this.title);
-        console.log(this.count)
+        console.log(this.count);
     }
-
 }
