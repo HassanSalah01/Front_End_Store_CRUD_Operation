@@ -18,16 +18,22 @@ const validateText = (id) => {
 };
 
 // validate all input field to Sum the total using Numb
-const validateNumberField = ()=>{
-    return validateNum("price") && validateNum("tax") && validateNum("discount");
-}
+const validateNumberField = () => {
+    return (
+        validateNum("price") && validateNum("tax") && validateNum("discount")
+    );
+};
 
-// validate all text field input To check 
-const validateTextField = ()=>{
-    return validateText("title") &&validateNum("count") &&validateText("category") ;
-}
+// validate all text field input To check
+const validateTextField = () => {
+    return (
+        validateText("title") &&
+        validateNum("count") &&
+        validateText("category")
+    );
+};
 
 // validate all input (text and numbers) to submit the form
-const validateForm=()=>{
+const validateForm = () => {
     return validateNumberField() && validateTextField();
-}
+};
