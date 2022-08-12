@@ -12,6 +12,7 @@ const elements = [title, count, price, discount, tax, category];
 const create = getElement("btn");
 const total = getElement("total");
 let num = 0 ;
+
 btn.addEventListener("click",()=>{
     if(validateForm()){
         const arr = []
