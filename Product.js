@@ -1,17 +1,22 @@
-class Product {
+class Product { 
+    static num = 0 ;
     constructor(prod) {
-        this.title = prod.title;
+        Product.num++;
+        this.num = Product.num;
+        this.brand = prod.brand;
+        this.model = prod.model;
+        this.category = prod.category;
         this.price = prod.price;
         this.tax = prod.tax;
         this.discount = prod.discount;
+        this.total = prod.total;
         this.count = prod.count;
-        this.category = prod.category;
     }
-    setTitle(val) {
-        this.title = val;
+    setModel(val) {
+        this.model = val;
     }
     getTit() {
-        return this.title;
+        return this.model;
     }
 
     setPrice(val) {
@@ -54,7 +59,7 @@ class Product {
         return this.category;
     }
     printData() {
-        console.log(this.title);
+        console.log(this.model);
         console.log(this.count);
     }
 }

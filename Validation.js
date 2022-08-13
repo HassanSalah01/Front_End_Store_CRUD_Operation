@@ -27,9 +27,10 @@ const validateNumberField = () => {
 // validate all text field input To check
 const validateTextField = () => {
     return (
-        validateText("title") &&
+        validateText("brand") &&
         validateNum("count") &&
-        validateText("category")
+        validateText("category") &&
+        validateText("model")
     );
 };
 
