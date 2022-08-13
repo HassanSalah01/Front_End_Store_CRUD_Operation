@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none outside none;
 }
 blockquote, q {
 	quotes: none;
@@ -166,11 +166,72 @@ header h3{
 #test{
     margin-right: 0px;
 }
-#col,#test{
+.col,#test{
     background-color:rgb(49, 8, 123);
     color:white;
     font-size: 1rem;
 }
-
+.three ,.four{
     
+    width:72%;
+    margin: 0 auto;
+    /* border:5px solid black; */
+    display:block;
+    margin-top:1rem;
+}
+.tableList,.tableList2{
+    /* background-color: red; */
+    display:flex;
+    justify-content:space-between;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+    padding:1rem;
+}
+.tableList li , .tableList2 li{
+    /* padding:1rem; */
+    /* border:2px solid green; */
+    display:inline;
+    color:white;
+    font-weight: bold;
+    /* border:2px solid yellow; */
+    padding:0.5rem;
+    margin-right:1rem;
+    width:4rem;
+    text-align: center;
+
+    /* display:inline-block; */
+}
+ .four{
+    width:72%;
+    margin : 0 auto;
+    display:block;
+    margin-top:1rem;
+} 
+/* .tableList2{
+    
+    display:flex;
+    justify-content:space-around;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+    padding:1rem;
+} */
+
+/* .tableList2 li{
+    border:2px solid red;
+    padding:0.5rem;
+    margin-right:1rem;
+    width:5rem;
+} */
+.tableList2 li input{
+    background-color:green;
+    /* display:block;
+    width:100%;
+    height:100%; */
+    display: flex;
+} 
+
     
