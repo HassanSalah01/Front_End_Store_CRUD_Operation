@@ -28,11 +28,13 @@
     </section>
 
     <section class="two">
-        <input type="text" value="Search">
+        <input type="text" value="Search" id  = "search">
         <div class="search">
-            <input type="button" value="Search By Titlle"  class = col>
-            <input type="button" id ="test" value="Search By Category" class = "col">
+            <input type="button" id = "sBrand"value="Search By Brand"  class = col>
+            <input type="button"  id = "sModel" value="Search By Model" class = "col">
+            <input type="button" id ="sCategory" value="Search By Category" class = "col">
         </div>
+        <input type="button" value="Show All" id = "showAll" class = "col">
         <input type="button" value="Delete All" id = "co" class = "col">
     </section>
 
@@ -54,15 +56,18 @@
             </ul>
         </div>
     </section>
-    <section class = "four" id = "four">
+    <section class = "four" id ="four">
 
     </section>
+    <section class = "five" id = "five"></section>
 
-
+    <script src="utility.js"></script>
+    <script src="Elements.js"></script>
     <script src="CreateElement.js"></script>
     <script src="Product.js"></script>
     <script src="Validation.js"></script>
-    <script src="utility.js"></script>
+    <script src="Search.js"></script>
     <script src="app.js"></script>
+    <script src="EventsList.js"></script>
 </body>
 </html>

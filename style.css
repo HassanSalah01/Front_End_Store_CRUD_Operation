@@ -163,15 +163,15 @@ header h3{
     margin-right:2rem;
 
 }
-#test{
+#sCategory{
     margin-right: 0px;
 }
-.col,#test{
+.col,#sCategory{
     background-color:rgb(49, 8, 123);
     color:white;
     font-size: 1rem;
 }
-.three ,.four{
+.three ,.four , .five{
     
     width:72%;
     margin: 0 auto;
@@ -203,7 +203,7 @@ header h3{
 
     /* display:inline-block; */
 }
- .four{
+ .four ,.five{
     width:72%;
     margin : 0 auto;
     display:block;
