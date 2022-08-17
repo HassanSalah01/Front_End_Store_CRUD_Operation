@@ -1,8 +1,8 @@
-class Product { 
-    static num = 0 ;
+class Product {
+    static num = 0;
     constructor(prod) {
         Product.num++;
-        this.num = Product.num;
+        this.id = Product.num;
         this.brand = prod.brand;
         this.model = prod.model;
         this.category = prod.category;
