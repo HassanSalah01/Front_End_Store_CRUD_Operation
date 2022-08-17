@@ -6,7 +6,7 @@ const main = () => {
     prodArr();
     createTable(productsArray, "four");
     console.log(productsArray);
-    console.log(searchType("brand","test"));
+    console.log(searchType("brand", "test"));
 };
 
 main();
