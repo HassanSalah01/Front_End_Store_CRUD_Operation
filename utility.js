@@ -13,6 +13,21 @@ const refrechTab = () => {
 
 const totaling = () => {
     setInterval(() => {
+        console.log(productsArray.length);
+        console.log(localStorage.length);
+        if (productsArray.length < localStorage.length) {
+            console.log(productsArray, "before");
+            productsArray = [];
+            console.log(productsArray.length, "after delete");
+            prodArr();
+        }
+        const element = document.getElementById("five");
+        if (search.value == "" && element != null) {
+            while (element.firstChild) {
+                element.firstChild.remove();
+            }
+            document.getElementById("four").style.display = "block";
+        }
         if (validateNumberField()) {
             const [newPrice, newTax, newDiscount] = [
                 parseFloat(price.value),
