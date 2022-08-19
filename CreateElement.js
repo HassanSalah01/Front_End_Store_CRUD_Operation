@@ -18,6 +18,10 @@ const cElement = (x, divName) => {
     li.addEventListener("click",()=>{
         update(x);
     })
+    li2.addEventListener("click",()=>{
+        console.log("DELETE");
+        deleting(x);
+    })
     ul.appendChild(li);
     ul.appendChild(li2);
 };
