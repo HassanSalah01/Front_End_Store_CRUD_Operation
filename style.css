@@ -68,7 +68,7 @@ header h1{
 }
 header h3{
     /* border:2px solid red; */
-    font-size:1rem;
+    font-size:2rem;
     height:50%;
     padding:0.5rem;
     font-weight:italic;
@@ -233,5 +233,30 @@ header h3{
     height:100%; */
     display: flex;
 } 
-
+#btnUpdate{
+    display: inline-block;
+    /* color :black; */
+    background-color:rgb(60, 207, 78);
+    border:2px solid black;
+    width:7rem;
+    /* height:100%; */
+    border-radius: 25px;
+    /* padding:1rem;  */
+    /* margin:2rem; */
+}
+#btnUpdate2{
+    display: inline-block;
+    /* color :black; */
+    /* background-color:rgb(60, 207, 78);
+    border:2px solid black; */
+    width:7rem;
+    /* height:100%; */
+    /* padding:1rem;  */
+    /* margin:2rem; */
+    border-radius:25px;
+}
+#sModel,#sBrand{
+    color:white;
+    background-color:rgb(49, 8, 123);
+}
     

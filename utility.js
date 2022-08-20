@@ -7,7 +7,7 @@ const clearTab = () => {
 };
 const refrechTab = () => {
     for (let i of elements) {
-        i.value = i.id;
+        i.value = i.id.charAt(0).toUpperCase() + i.id.slice(1);;
     }
 };
 
