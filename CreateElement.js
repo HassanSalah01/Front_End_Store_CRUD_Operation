@@ -13,6 +13,8 @@ const cElement = (x, divName) => {
     }
     const li = document.createElement("li");
     const li2 = document.createElement("li");
+    li.id= "btnUpdate"
+    li2.id= "btnUpdate"
     li.innerHTML = "UPDATE";
     li2.innerHTML = "DELETE";
     li.addEventListener("click",()=>{
