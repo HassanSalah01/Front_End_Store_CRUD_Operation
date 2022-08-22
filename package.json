@@ -1,0 +1,24 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Product.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --config .prettierrc.json *.js --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanSalah01/Front_End_Store_CRUD_Operation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanSalah01/Front_End_Store_CRUD_Operation/issues"
+  },
+  "homepage": "https://github.com/HassanSalah01/Front_End_Store_CRUD_Operation#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
