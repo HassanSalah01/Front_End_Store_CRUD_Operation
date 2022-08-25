@@ -1,5 +1,4 @@
 const cElement = (x, divName) => {
-    console.log(x.id);
     const div = document.createElement("div");
     div.id = x.id;
     document.getElementById(divName).appendChild(div);
@@ -21,14 +20,12 @@ const cElement = (x, divName) => {
         update(x);
     })
     li2.addEventListener("click",()=>{
-        console.log("DELETE");
         deleting(x);
     })
     ul.appendChild(li);
     ul.appendChild(li2);
 };
 const prodArr = () => {
-    console.log("done new arr");
     const arr = Object.keys(localStorage);
     for (let i = 0; i < arr.length; i++) {
         productsArray.push(

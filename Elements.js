@@ -24,7 +24,6 @@ const elements = [
     total,
     search,
 ];
-console.log(del);
 let arr = [];
 let productsArray = [];
 let updatedElement = null;

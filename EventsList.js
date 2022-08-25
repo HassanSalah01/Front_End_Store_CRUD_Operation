@@ -16,9 +16,7 @@ btn.addEventListener("click", () => {
         };
         const prod = new Product(newProd);
         const testing = prod.model;
-        console.log(productsArray)
         if(btn.value =="Update"){
-            console.log("update enter")
             localStorage.removeItem(updatedElement);
             localStorage.setItem(`${newProd.model}`, JSON.stringify(prod));
             // cElement(prod,"four");
@@ -47,7 +45,7 @@ showAll.addEventListener("click", () => {
     document.getElementById("four").style.display = "block";
 });
 window.addEventListener("keydown",(event)=>{
-    console.log(event.key)
+    
     if(event.key=="Enter"){
         if (validateForm()) {
         const newProd = {
@@ -62,9 +60,9 @@ window.addEventListener("keydown",(event)=>{
         };
         const prod = new Product(newProd);
         const testing = prod.model;
-        console.log(productsArray)
+        
         if(btn.value =="Update"){
-            console.log("update enter")
+            
             localStorage.removeItem(updatedElement);
             localStorage.setItem(`${newProd.model}`, JSON.stringify(prod));
             // cElement(prod,"four");

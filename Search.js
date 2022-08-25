@@ -19,7 +19,7 @@ const searchType = (x, y) => {
 
 const searching = (x) => {
     if (validateText("search") && search.value != "Search") {
-        console.log("sssssssssssss ");
+       
         const newValue = search.value;
         const test = searchType(x, newValue);
         console.log(test);
